@@ -1,7 +1,7 @@
 # Docker-GUI_Container
 
 ⚙️ Prerequisites:
- 1. AWS Account:(I use EC2 instance as OS for docker and AMI-ubuntu)
+ 1. AWS Account: (I use EC2 instance as OS for docker and AMI-ubuntu)
     
  3. Security Group Settings:
      (Modify the security group associated with your EC2 instance to allow inbound traffic on the following ports:
