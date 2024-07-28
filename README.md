@@ -1,9 +1,11 @@
 # Docker-GUI_Container
 
 
-For this i use AWS Cloud EC2 instance :
+⚙️For this i use AWS Cloud EC2 instance :
 
-install docker and start docker services
+✧ Step 1:  
+ 
+ Install Docker and start docker services:
 
      #sudo apt-get update
      
@@ -12,9 +14,17 @@ install docker and start docker services
      #sudo systemctl start docker 
 
 
-For this i use precreated image :
+✧ Step 2 : (Launch Container using image which support GUI)
+
+- Note:
+  
+ The "consol/ubuntu-xfce-vnc" Docker image is designed to provide a lightweight, easy-to-use VNC (Virtual Network Computing) 
+ server environment running on an Ubuntu base with the Xfce desktop environment. This image allows you to run GUI applications 
+ within a container and access them remotely via a VNC client.
 
     #sudo docker pull consol/ubuntu-xfce-vnc
+
+Lanuch container in detached Mode & exposed:
 
     #  sudo docker run -d --name=pratik1 -p 5901:5901 -p 6901:6901 -e VNC_PASSWORD=pratik consol/ubuntu-xfce-vnc
 
