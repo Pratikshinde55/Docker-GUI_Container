@@ -35,16 +35,18 @@ Lanuch container in detached Mode & exposed:
  -p 5901:5901: Map port 5901 of the container to port 5901 of the host (VNC access).
     
  -p 6901:6901: Map port 6901 of the container to port 6901 of the host (web-based VNC access).
+
+ -e environmental variables 
     
-now check container logs :
+Now check container logs and we get image build details:
 
     #sudo docker logs pratik1
+
+- Note:
     
-and we can try to connect container from outside (browser) 
+  we can try to connect container from outside (browser) world.
 
-here show error while connecting to container by HTTP (http://52.90.226.27:6901/?password=pratik)
-
-we write password then also unable to connect -
+  here show error while connecting to container by HTTP (http://52.90.226.27:6901/?password=pratik) we write password then also unable to connect -
 
 ![image](https://github.com/user-attachments/assets/070c9471-cc3c-4b4a-8d72-2ecea5747da7)
 
