@@ -57,13 +57,13 @@ Now check container logs and we get image build details:
   and is an improved version of the standard VNC (Virtual Network Computing) software
 
 
-Now using TightVNC viewer for GUI container:
+  Now using TightVNC viewer for GUI container:
 
-Fill public Ip of EC2 and port no. -->> (52.90.226.27:5901)
+  Fill public Ip of EC2 and port no. -->> (52.90.226.27:5901)
 
 ![image](https://github.com/user-attachments/assets/99d21477-3f4d-4623-a5cd-3ad9783d029a)
 
-while fill password also unble to connect GUI container :
+  while fill password also unble to connect GUI container :
 
 ![image](https://github.com/user-attachments/assets/95bf9c5d-c26a-4136-87bd-49982e444545)
 
@@ -73,13 +73,16 @@ while fill password also unble to connect GUI container :
    
    I can manually reset the VNC password by attaching to the running container and using the "vncpasswd" command.
 
-    #sudo docker exec -it pratik1 bash
-    #vncpasswd
+     #sudo docker exec -it pratik1 bash
 
-  After resetting the password, restart the VNC server within the container.
+   set new VNC password inside the Container
 
-    # vncserver -kill :1
-    # vncserver :1
+     #vncpasswd
+
+   After resetting the password, restart the VNC server within the container.
+
+      #vncserver -kill :1
+      #vncserver :1
 
 ![image](https://github.com/user-attachments/assets/7373b6c0-08be-4bae-9c53-6a6002dd785c)
 
