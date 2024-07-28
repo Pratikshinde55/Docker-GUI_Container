@@ -73,16 +73,16 @@ Now check container logs and we get image build details:
    
    I can manually reset the VNC password by attaching to the running container and using the "vncpasswd" command.
 
-     #sudo docker exec -it pratik1 bash
+        #sudo docker exec -it pratik1 bash
 
    set new VNC password inside the Container
 
-     #vncpasswd
+        #vncpasswd
 
    After resetting the password, restart the VNC server within the container.
 
-      #vncserver -kill :1
-      #vncserver :1
+       #vncserver -kill :1
+       #vncserver :1
 
 ![image](https://github.com/user-attachments/assets/7373b6c0-08be-4bae-9c53-6a6002dd785c)
 
