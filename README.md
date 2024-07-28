@@ -1,5 +1,8 @@
 # Docker-GUI_Container
 
+![image](https://github.com/user-attachments/assets/9a7633b6-6dc7-4a67-b566-2e3f2b47f46e)
+
+
 ⚙️ Description:
 
  In this task, we will set up a GUI container on an EC2 Ubuntu instance using Docker and access it remotely via VNC.
