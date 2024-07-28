@@ -63,21 +63,20 @@ Fill public Ip of EC2 and port no. -->> (52.90.226.27:5901)
 
 ![image](https://github.com/user-attachments/assets/99d21477-3f4d-4623-a5cd-3ad9783d029a)
 
-while fill pass also unble to connect :
+while fill password also unble to connect GUI container :
 
 ![image](https://github.com/user-attachments/assets/95bf9c5d-c26a-4136-87bd-49982e444545)
 
 
 
-Now Fix this :
-
-
-I can manually reset the VNC password by attaching to the running container and using the "vncpasswd" command.
+ - Now Fix this :
+   
+   I can manually reset the VNC password by attaching to the running container and using the "vncpasswd" command.
 
     #sudo docker exec -it pratik1 bash
     #vncpasswd
 
-After resetting the password, restart the VNC server within the container.
+  After resetting the password, restart the VNC server within the container.
 
     # vncserver -kill :1
     # vncserver :1
