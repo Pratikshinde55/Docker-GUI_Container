@@ -13,15 +13,14 @@
   (TightVNC Viewer installed on your local machine for accessing the VNC server).
    
 
-✧ Step 1:  
+✧ Step 1: (Install Docker and start docker services)
  
- Install Docker and start docker services:
 
-     #sudo apt-get update
+     # sudo apt-get update
      
-     #sudo apt-get install -y docker.io
+     # sudo apt-get install -y docker.io
      
-     #sudo systemctl start docker 
+     # sudo systemctl start docker 
 
 
 ✧ Step 2 : (Launch Container using image which support GUI)
