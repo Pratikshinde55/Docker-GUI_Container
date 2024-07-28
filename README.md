@@ -84,7 +84,7 @@ Now check container logs and we get image build details:
 
 
 
- - Now Fix this :
+ - Note : (Authentication Failure)
    
    I can manually reset the VNC password by attaching to the running container and using the "vncpasswd" command.
 
