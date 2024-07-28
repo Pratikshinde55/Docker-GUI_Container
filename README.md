@@ -1,6 +1,17 @@
 # Docker-GUI_Container
 
+ Prerequisites:
+ 1. AWS Account:(I use EC2 instance as OS for docker and AMI-ubuntu)
+ 2. Security Group Settings:
+     (Modify the security group associated with your EC2 instance to allow inbound traffic on the following ports:
+     Port 22 (SSH)
+     Port 5901 (VNC)
+     Port 6901 (noVNC)
+     HTTP 
+     )
 
+
+ 
 ⚙️For this i use AWS Cloud EC2 instance :
 
 ✧ Step 1:  
