@@ -92,12 +92,12 @@ fill new password
   
 - Running the Docker Container:
 
- Start the Docker container with ports 5901 and 6901 exposed for VNC and noVNC access.
+  Start the Docker container with ports 5901 and 6901 exposed for VNC and noVNC access.
  
- Set a VNC password.
+  Set a VNC password.
  
 - Connecting via TightVNC Viewer:
 
- Use TightVNC Viewer on your local machine to connect to the VNC server running in the Docker container on the EC2 instance.
+  Use TightVNC Viewer on your local machine to connect to the VNC server running in the Docker container on the EC2 instance.
 
 
