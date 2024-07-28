@@ -11,7 +11,7 @@
 
  3. Local Machine Setup:
   (TightVNC Viewer installed on your local machine for accessing the VNC server).
-   
+ 4. Putty (SSH access to the EC2 instance ).
 
 ✧ Step 1: (Install Docker and start docker services)
  
