@@ -88,7 +88,8 @@ Now check container logs and we get image build details:
 
 
 ✧ Step 3:
-  No,w Agian check on Browser with newly saved password (newpassowrd - pratik55)
+  
+  Now Agian check on Browser with newly saved password (newpassowrd - pratik55)
 
   public IP of EC2 : port no (http://52.90.226.27:6901/?password=pratik55)
 
