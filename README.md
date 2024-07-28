@@ -45,7 +45,7 @@ we write password then also unable to connect -
   and is an improved version of the standard VNC (Virtual Network Computing) software
 
 
-Now we can by using TightVNC viewer for GUI container:
+Now using TightVNC viewer for GUI container:
 
 Fill public Ip of EC2 and port no. -->> (52.90.226.27:5901)
 
