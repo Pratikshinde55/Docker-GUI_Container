@@ -82,7 +82,7 @@ fill new password
 ![Screenshot 2024-07-28 141953](https://github.com/user-attachments/assets/b95063a9-2775-44f1-839e-8d143c3545e3)
 
     
-# Summary of Your Task
+# Summary 
 
 - Docker Setup on EC2 Instance:
 
