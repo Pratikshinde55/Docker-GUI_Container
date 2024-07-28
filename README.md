@@ -14,7 +14,7 @@
     
  2. Security Group Settings:
      (Modify the security group associated with your EC2 instance to allow inbound traffic on the following ports:
-     Port 22 (SSH0, Port 5901 (VNC), Port 6901 (noVNC), HTTP ).
+     Port 22 (SSH), Port 5901 (VNC), Port 6901 (noVNC),Port 80 (HTTP) ).
     
    ![Screenshot 2024-07-28 135712](https://github.com/user-attachments/assets/c0da6b3b-4739-40a0-9327-c3e490670d37)
 
