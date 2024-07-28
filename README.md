@@ -87,17 +87,17 @@ Now check container logs and we get image build details:
 ![image](https://github.com/user-attachments/assets/7373b6c0-08be-4bae-9c53-6a6002dd785c)
 
 
+✧ Step 3:
+  No,w Agian check on Browser with newly saved password (newpassowrd - pratik55)
 
-now , Agian check on Browser with new saved password (newpassowrd - pratik55)
-
- public IP of EC2 : port no (http://52.90.226.27:6901/?password=pratik55)
+  public IP of EC2 : port no (http://52.90.226.27:6901/?password=pratik55)
 
 ![image](https://github.com/user-attachments/assets/ff95071c-e1d4-4279-a63e-a0788b8526f8)
 
 
-now check GUI Container by TightVNC viewer:
+- check GUI Container from TightVNC viewer:
 
-fill new password 
+  fill new password 
 
 ![Screenshot 2024-07-28 141953](https://github.com/user-attachments/assets/b95063a9-2775-44f1-839e-8d143c3545e3)
 
