@@ -18,8 +18,11 @@ For this i use precreated image :
     #  sudo docker run -d --name=pratik1 -p 5901:5901 -p 6901:6901 -e VNC_PASSWORD=pratik consol/ubuntu-xfce-vnc
 
  here,
+ 
     -d: Run the container in detached mode.
+    
     -p 5901:5901: Map port 5901 of the container to port 5901 of the host (VNC access).
+    
     -p 6901:6901: Map port 6901 of the container to port 6901 of the host (web-based VNC access).
     
 now check container logs :
