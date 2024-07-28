@@ -31,11 +31,11 @@
  server environment running on an Ubuntu base with the Xfce desktop environment. This image allows you to run GUI applications 
  within a container and access them remotely via a VNC client.
 
-    #sudo docker pull consol/ubuntu-xfce-vnc
+      # sudo docker pull consol/ubuntu-xfce-vnc
 
-Lanuch container in detached Mode & exposed:
+Lanuch container in detached Mode and expose:
 
-    #  sudo docker run -d --name=pratik1 -p 5901:5901 -p 6901:6901 -e VNC_PASSWORD=pratik consol/ubuntu-xfce-vnc
+      # sudo docker run -d --name=pratik1 -p 5901:5901 -p 6901:6901 -e VNC_PASSWORD=pratik consol/ubuntu-xfce-vnc
 
  here,
  
