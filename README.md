@@ -49,7 +49,7 @@ Lanuch container in detached Mode and expose:
     
 Now check container logs and we get image build details:
 
-    #sudo docker logs pratik1
+      # sudo docker logs pratik1
 
 - Note:
     
