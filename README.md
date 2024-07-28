@@ -82,6 +82,22 @@ fill new password
 ![Screenshot 2024-07-28 141953](https://github.com/user-attachments/assets/b95063a9-2775-44f1-839e-8d143c3545e3)
 
     
+# Summary of Your Task
 
+- Docker Setup on EC2 Instance:
+
+  Install Docker on your EC2 instance.
+  
+  Pull a Docker image capable of running a GUI application with VNC support.
+  
+- Running the Docker Container:
+
+ Start the Docker container with ports 5901 and 6901 exposed for VNC and noVNC access.
+ 
+ Set a VNC password.
+ 
+- Connecting via TightVNC Viewer:
+
+ Use TightVNC Viewer on your local machine to connect to the VNC server running in the Docker container on the EC2 instance.
 
 
