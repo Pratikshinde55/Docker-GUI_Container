@@ -38,7 +38,9 @@ we write password then also unable to connect -
 
 ![image](https://github.com/user-attachments/assets/070c9471-cc3c-4b4a-8d72-2ecea5747da7)
 
+
 - TightVNC Viewer:
+  
   TightVNC is a remote desktop software that allows you to see and control a remote computer's desktop. It uses the RFB (Remote FrameBuffer) protocol
   and is an improved version of the standard VNC (Virtual Network Computing) software
 
