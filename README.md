@@ -2,14 +2,13 @@
 
 ![image](https://github.com/user-attachments/assets/9a7633b6-6dc7-4a67-b566-2e3f2b47f46e)
 
+- Description:
 
-⚙️ Description:
-
- In this task, we will set up a GUI container on an EC2 Ubuntu instance using Docker and access it remotely via VNC.
- The process involves pulling and running a Docker image that provides an Ubuntu environment 
- with an XFCE desktop environment and a VNC server. We will then access this environment using TightVNC Viewer and a web browser.
+In this task, we will set up a GUI container on an EC2 Ubuntu instance using Docker and access it remotely via VNC.
+The process involves pulling and running a Docker image that provides an Ubuntu environment 
+with an XFCE desktop environment and a VNC server. We will then access this environment using TightVNC Viewer and a web browser.
  
-⚙️ Prerequisites:
+- Prerequisites:
  1. AWS Account: (I use EC2 instance as OS for docker and AMI-ubuntu)
     
  2. Security Group Settings:
@@ -22,17 +21,21 @@
   (TightVNC Viewer installed on your local machine for accessing the VNC server).
  4. Putty (SSH access to the EC2 instance ).
 
-✧ Step 1: (Install Docker and start docker services)
+
+### Step-1: [Install Docker and Start Docker services]
  
+    sudo apt-get update
+    
+Install Docker commad for ubuntu:   
 
-     # sudo apt-get update
-     
-     # sudo apt-get install -y docker.io
-     
-     # sudo systemctl start docker 
+    sudo apt-get install -y docker.io
+    
+Start Docker service command:
+
+    sudo systemctl start docker 
 
 
-✧ Step 2 : (Launch Container using image which support GUI)
+### Step-2: [Launch Container using image which support GUI]
 
 - Note:
   
