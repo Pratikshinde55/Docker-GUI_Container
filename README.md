@@ -104,7 +104,7 @@ After resetting the password, restart the VNC server within the container:
 
 ![image](https://github.com/user-attachments/assets/7373b6c0-08be-4bae-9c53-6a6002dd785c)
 
-### Step 3:
+### Step-3: [On Browser]
 Now again check on Browser with newly saved password (newpassowrd - pratik55)
 
 public IP of EC2 : port no (http://52.90.226.27:6901/?password=pratik55)
